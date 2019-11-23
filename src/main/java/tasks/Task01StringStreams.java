@@ -13,7 +13,7 @@ class Task01StringStreams {
      *  "ABC" -> 0
      */
     static long countLowercaseLetters(String str) {
-        return str.chars().filter(Character::isLowerCase).count();
+        throw new PleaseImplementMeException();
     }
 
 
@@ -33,11 +33,6 @@ class Task01StringStreams {
      *    - Collectors.joining
      */
     static String replaceWordsOnLength(String str) {
-        String[] words = str.split("\\s+");
-
-        return Arrays.stream(words)
-                .map(String::length)
-                .map(Object::toString)
-                .collect(Collectors.joining(" "));
+        throw new PleaseImplementMeException();
     }
 }

@@ -25,9 +25,7 @@ public class Task03TruckTypes {
      * @return
      */
     public static TruckType getTypeByWeight(Truck t) {
-        return Arrays.stream(TruckType.values())
-                .filter(type -> type.canHandleWeight(t.maxWeightKg))
-                .findFirst().get();
+        throw new PleaseImplementMeException();
     }
 
     /**
@@ -49,8 +47,7 @@ public class Task03TruckTypes {
      * @return
      */
     public static Map<TruckType, List<Truck>> groupTrucksByType(List<Truck> trucks) {
-        return trucks.stream()
-                .collect(Collectors.groupingBy(Task03TruckTypes::getTypeByWeight));
+        throw new PleaseImplementMeException();
     }
 
     /**
@@ -73,11 +70,7 @@ public class Task03TruckTypes {
      * @return
      */
     public static Map<TruckType, Long> countTrucksByType(List<Truck> trucks) {
-        return trucks.stream()
-                .collect(
-                        Collectors.groupingBy(Task03TruckTypes::getTypeByWeight,
-                                Collectors.counting())
-                );
+        throw new PleaseImplementMeException();
     }
 
     /**
