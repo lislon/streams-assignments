@@ -7,6 +7,8 @@
     - Collectors.counting
     - Collectors.joining
  - Stream::reduce
+ - IntStream::of
+ - IntStream::average
  
 А также на Optional
 

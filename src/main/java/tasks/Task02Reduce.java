@@ -1,7 +1,6 @@
 package tasks;
 
 import java.util.List;
-import java.util.Optional;
 
 public class Task02Reduce {
 
@@ -30,4 +29,22 @@ public class Task02Reduce {
     public static Integer multiply(List<Integer> linkedListOfNumbers) {
         throw new PleaseImplementMeException();
     }
+
+    /**
+     * Найти среднее чисел в массиве, или вернуть исключение, если массив пустой.
+     *
+     * см. Стримы для примитивов в https://annimon.com/article/2778
+     *
+     * Понадобиться:
+     *   - IntStream::of
+     *   - IntStream::average
+     *   - Optional:orElseThrow
+     *
+     * @param numbers
+     * @return
+     */
+    public static double findAverage(int[] numbers) {
+        throw new PleaseImplementMeException();
+    }
+
 }
