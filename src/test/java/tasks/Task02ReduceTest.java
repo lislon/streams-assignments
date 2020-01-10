@@ -36,7 +36,7 @@ class Task02ReduceTest {
         @Test
         @DisplayName("method should work as expected when result is equal to 100")
         void multiplyResultEqual100() {
-            assertEquals(100, Task02Reduce.multiply(Arrays.asList(10, 10)));
+            assertEquals(100, Task02Reduce.multiply(Arrays.asList(5, 10)));
         }
     }
 
