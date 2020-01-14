@@ -8,6 +8,11 @@ class Task01StringStreams {
      * Пример:
      *  "abcDE" -> 3
      *  "ABC" -> 0
+     *
+     * Тут подойдет:
+     *    - String::chars
+     *    - Character::isLowerCase
+     *    - Stream::count
      */
     static long countLowercaseLetters(String str) {
         throw new PleaseImplementMeException();
