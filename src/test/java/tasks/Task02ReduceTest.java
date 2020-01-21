@@ -45,13 +45,13 @@ class Task02ReduceTest {
     class IntStreamTests {
 
         @Test
-        @Description("findAverage(0, 10) == 5")
+        @DisplayName("findAverage(0, 10) == 5")
         void averageOfTwo() {
             assertEquals(5, findAverage(new int[]{0, 10}));
         }
 
         @Test
-        @Description("findAverage(None) throws exception")
+        @DisplayName("findAverage(None) throws exception")
         void averageOfNone() {
             assertThrows(RuntimeException.class, () -> findAverage(new int[]{}));
         }
