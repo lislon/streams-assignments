@@ -9,34 +9,34 @@ import java.util.Collections;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static tasks.Task02Reduce.findAverage;
+import static tasks.Task2.findAverage;
 
-class Task02ReduceTest {
+class Task2Test {
 
     @Nested
     class ReduceTests {
         @Test
         @DisplayName("Passing empty collection should return -1")
         void multiplyEmpty() {
-            assertEquals(-1, Task02Reduce.multiply(Collections.emptyList()));
+            assertEquals(-1, Task2.multiply(Collections.emptyList()));
         }
 
         @Test
         @DisplayName("Multiplication of several numbers")
         void multiplyMany() {
-            assertEquals(6, Task02Reduce.multiply(Arrays.asList(1, 2, 3)));
+            assertEquals(6, Task2.multiply(Arrays.asList(1, 2, 3)));
         }
 
         @Test
         @DisplayName("method should return -1 when result greater then 100")
         void multiplyResultMoreThen100() {
-            assertEquals(-1, Task02Reduce.multiply(Arrays.asList(25, 10)));
+            assertEquals(-1, Task2.multiply(Arrays.asList(25, 10)));
         }
 
         @Test
         @DisplayName("method should work as expected when result is equal to 100")
         void multiplyResultEqual100() {
-            assertEquals(100, Task02Reduce.multiply(Arrays.asList(5, 10)));
+            assertEquals(100, Task2.multiply(Arrays.asList(5, 10)));
         }
     }
 

@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.List;
 
-public class Task02Reduce {
+public class Task2 {
 
     /**
      * Задача перемножить все числа переданные в список.

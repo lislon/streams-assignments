@@ -11,7 +11,7 @@ import java.util.Map;
  *  - SmallBoxTruck - до 12 тонн
  *  - SemiTrailer   - до 20 тонн
  */
-public class Task03TruckTypes {
+public class Task3 {
 
     /**
      * Возвращает тип грузовика с наименьшей грузоподьемностью,
