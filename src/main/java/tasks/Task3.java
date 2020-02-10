@@ -53,6 +53,7 @@ public class Task3 {
      * Понадобиться:
      *   - Stream::collect
      *   - Collectors.groupingBy
+     *   - Task3::getTypeByWeight
      * </pre>
      *
      * @param trucks
