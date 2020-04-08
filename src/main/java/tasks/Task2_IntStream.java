@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.List;
 
-public class Task2 {
+public class Task2_IntStream {
 
     /**
      * Задача перемножить все числа переданные в список.
@@ -27,7 +27,7 @@ public class Task2 {
      * @return
      */
     public static Integer multiply(List<Integer> linkedListOfNumbers) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
     /**
@@ -44,7 +44,7 @@ public class Task2 {
      * @return
      */
     public static double findAverage(int[] numbers) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
 }

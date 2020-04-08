@@ -4,6 +4,7 @@
  - Stream::map
  - Stream::collect
     - Collectors.groupingBy
+    - Collectors.mapping
     - Collectors.counting
     - Collectors.joining
  - Stream::reduce
@@ -12,10 +13,10 @@
  
 А также на Optional
 
-Ссылки и примеры по теме:
+Чтобы решить задачки, смотрите ссылки и примеры по теме вот тут:
  - https://annimon.com/article/2778
  
-# Инструкция
+# Инструкция по запуску
 
 - Сохраните проект на локальный компьютер с помощью команды `git clone` в командной строке
 - Откройте проект в IDE, и реализуйте первый метод из класа Task1::countEven

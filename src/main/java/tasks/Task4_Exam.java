@@ -11,7 +11,7 @@ import java.util.Map;
  *  - SmallBoxTruck - до 12 тонн
  *  - SemiTrailer   - до 20 тонн
  */
-public class Task3 {
+public class Task4_Exam {
 
     /**
      * Возвращает тип грузовика с наименьшей грузоподьемностью,
@@ -35,7 +35,7 @@ public class Task3 {
      * @return
      */
     public static TruckType getTypeByWeight(int weight) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
     /**
@@ -60,7 +60,7 @@ public class Task3 {
      * @return
      */
     public static Map<TruckType, List<Truck>> groupTrucksByType(List<Truck> trucks) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
     /**
@@ -85,7 +85,7 @@ public class Task3 {
      * @return
      */
     public static Map<TruckType, Long> countTrucksByType(List<Truck> trucks) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
     /**

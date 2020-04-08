@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Collection;
 
-class Task1 {
+class Task1_Basic {
 
     /**
      * Функция должна вернуть количество четных чисел в списке.
@@ -17,7 +17,7 @@ class Task1 {
      *    - Stream::count()
      */
     static long countEven(Collection<Integer> numbers) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
     /**
@@ -33,7 +33,7 @@ class Task1 {
      *    - Stream::count()
      */
     static long countLowercaseLetters(String str) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 
 
@@ -53,6 +53,6 @@ class Task1 {
      *    - Collectors.joining()
      */
     static String replaceWordsOnLength(String str) {
-        throw new PleaseImplementMeException();
+        throw new PleaseDeleteMeAndImplement();
     }
 }

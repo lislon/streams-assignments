@@ -3,17 +3,17 @@ package tasks;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import tasks.Task3.*;
+import tasks.Task4_Exam.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static tasks.Task3.TruckType.*;
-import static tasks.Task3.*;
+import static tasks.Task4_Exam.TruckType.*;
+import static tasks.Task4_Exam.*;
 
-class Task3Test {
+class Task4ExamTest {
 
     @Nested
     @DisplayName("getTypeByWeight will return 'lightest' possible truck which can handle given weight")
