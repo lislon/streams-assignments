@@ -91,19 +91,24 @@ public class Task4_Exam {
     /**
      * Грузовик и его грузоподьемность.
      */
-    static class Truck {
+    public static class Truck {
         int maxWeightKg;
         Truck(int maxWeightKg) {
             this.maxWeightKg = maxWeightKg;
         }
+
+        @Override
+        public String toString() {
+            return "Truck (maxWeightKg=" + maxWeightKg +')';
+        }
     }
 
     /**
-     * Тип грузовика по грузоподьемности в кг. 
+     * Тип грузовика по грузоподьемности в кг.
      * <p>
      * Гарантируется, что значения отсортированы по возрастанию. Т.е. можно смело итерироваться по .values()
      */
-    enum TruckType {
+    private enum TruckType {
         Pickup(2_000),
         SmallBoxTruck(12_000),
         SemiTrailer(20_000);
